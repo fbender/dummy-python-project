@@ -1,14 +1,13 @@
 # A sample Python project
 
-A sample project that exists as an aid to the [Python Packaging User
-Guide][packaging guide]'s [Tutorial on Packaging and Distributing
-Projects][distribution tutorial].
+A sample Python project inspired by:
 
-This project does not aim to cover best practices for Python project
-development as a whole. For example, it does not provide guidance or tool
-recommendations for version control, documentation, or testing.
-
-[The source for this project is available here][src].
+* Python Packaging User Guide's [Tutorial on Packaging and Distributing Projects][distribution tutorial] ([upstream])
+* [Filesystem structure of a Python project by Jean-Paul Calderone][jpc-fs-pyproj]
+* https://stackoverflow.com/q/193161
+* https://realpython.com/python-application-layouts/
+* https://jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/
+* https://docs.python.org/3/tutorial/modules.html#packages
 
 Most of the configuration for a Python project is done in the `setup.py` file,
 an example of which is included in this project. You should edit this file
@@ -29,9 +28,10 @@ usage examples, etc. Generally, including the project changelog in here is not a
 good idea, although a simple “What's New” section for the most recent version
 may be appropriate.
 
-[packaging guide]: https://packaging.python.org
 [distribution tutorial]: https://packaging.python.org/tutorials/packaging-projects/
-[src]: https://github.com/pypa/sampleproject
+[upstream]: https://github.com/pypa/sampleproject
 [rst]: http://docutils.sourceforge.net/rst.html
 [md]: https://tools.ietf.org/html/rfc7764#section-3.5 "CommonMark variant"
 [md use]: https://packaging.python.org/specifications/core-metadata/#description-content-type-optional
+[jpc-fs-pyproj]: http://as.ynchrono.us/2007/12/filesystem-structure-of-python-project_21.html
+
